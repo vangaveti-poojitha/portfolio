@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Alegreya:ital,wght@0,400;1,500&family=Courgette&family=Itim&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+ <script src="https://kit.fontawesome.com/08d50d0427.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="flex">
+        <nav class="flex">
+
+            <div class="left">
+                <p id="start">Poojitha's Portfolio</p>
+            </div>
+
+            <div class="right">
+                <ul class="flex">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <section class="firstsection flex">
+        <div class="left-firstsection">
+           <div class="intro">Hii! I am <span id="yellow">Poojitha,</span>
+            I am Passionate About <span id="element"></span></div>
+        </div>
+        <div class="right-firstsection">
+            <img id="img1" src="bg2.jpg">
+        </div>
+
+       
+
+
+    </section>
+
+    <section class="secondsection flex">
+        <div class="skills flex mb">SKILLS</div>
+            <div class="container flex">
+                <div class="box">Python Programming Language</div>
+                <div class="box">Data Structures and Algorithms</div>
+                <div class="box">Database Management System</div>
+                <div class="box">MySql</div>
+                <div class="box">PHP</div>
+                <div class="box">HTML</div>
+                <div class="box">CSS</div>
+                <div class="box">JavaScript</div>
+                <div class="box">Web Scraping using beautifulSoup Library</div>
+                
+            
+        </div>
+
+
+
+    </section>
+    <footer class="foot flex">
+        <h4>Lets get Social</h4>
+        <div >
+            <ul class="flex">
+                <li><i class="fa-brands fa-instagram fa-lg"></i></li>
+                <li> <i class="fa-brands fa-facebook fa-lg"></i></li>
+                <li> <i class="fa-brands fa-whatsapp fa-lg"></i></li>
+                <li><i class="fa-solid fa-envelope fa-lg"></i></li>
+            </ul>
+           
+        </div>
+    </footer>
+
+
+
+
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<i>Web Development</i>.', ' Data Structures and Algorithms.'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+
+</html>
